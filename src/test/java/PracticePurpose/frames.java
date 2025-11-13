@@ -5,11 +5,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class frames {
 
+		
 	
-		public static void main (String[]args) throws InterruptedException{
+	
+		@Test
+		
+		public void Nk () throws InterruptedException{
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
