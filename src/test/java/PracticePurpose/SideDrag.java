@@ -18,6 +18,9 @@ public class SideDrag {
 		Actions a = new Actions(driver);
 		a.dragAndDropBy(Source, 200, 0).perform();
 		a.dragAndDropBy(Source, -100, 0).perform();
+		
+		
+		System.out.println("side drag is working ");
 	}
 
 }
