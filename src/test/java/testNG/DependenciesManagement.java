@@ -2,9 +2,9 @@ package testNG;
 
 import org.testng.annotations.Test;
 
-public class Dependancies_Management {
-
-	@Test(enabled = false)
+public class DependenciesManagement {
+	
+	@Test(enabled = true)
 	public void SSC() {
 		System.out.println("Studied 10th class");
 	}
@@ -19,6 +19,4 @@ public class Dependancies_Management {
 	public void Btech() {
 		System.out.println("Studied Engineering");
 	}
-	
-	
 }

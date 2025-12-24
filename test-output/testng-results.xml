@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-22T17:18:11 IST" name="Default suite" finished-at="2025-12-22T17:18:18 IST" duration-ms="6944">
+  <suite started-at="2025-12-24T16:40:07 IST" name="testsuite" finished-at="2025-12-24T16:40:07 IST" duration-ms="59">
     <groups>
+      <group name="Vivo">
+        <method signature="Grouping_Example.Vivo1()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Vivo1" class="testNG.Grouping_Example"/>
+        <method signature="Grouping_Example.Vivo2()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Vivo2" class="testNG.Grouping_Example"/>
+      </group> <!-- Vivo -->
+      <group name="Moto">
+        <method signature="Grouping_Example.Moto1()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Moto1" class="testNG.Grouping_Example"/>
+        <method signature="Grouping_Example.Moto2()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Moto2" class="testNG.Grouping_Example"/>
+      </group> <!-- Moto -->
     </groups>
-    <test started-at="2025-12-22T17:18:11 IST" name="Default test" finished-at="2025-12-22T17:18:18 IST" duration-ms="6944">
-      <class name="testNG.SuiteExample">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:testNG.SuiteExample@229f66ed]" started-at="2025-12-22T17:18:09 IST" name="LaunchBrowser" finished-at="2025-12-22T17:18:11 IST" duration-ms="1922" status="PASS">
+    <test started-at="2025-12-24T16:40:07 IST" name="testcases" finished-at="2025-12-24T16:40:07 IST" duration-ms="59">
+      <class name="testNG.Grouping_Example">
+        <test-method signature="Moto1()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Moto1" finished-at="2025-12-24T16:40:07 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchBrowser -->
-        <test-method signature="OpenBing()[pri:0, instance:testNG.SuiteExample@229f66ed]" started-at="2025-12-22T17:18:11 IST" name="OpenBing" finished-at="2025-12-22T17:18:13 IST" duration-ms="1896" status="PASS">
+        </test-method> <!-- Moto1 -->
+        <test-method signature="Moto2()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Moto2" finished-at="2025-12-24T16:40:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenBing -->
-        <test-method signature="OpenGoogle()[pri:0, instance:testNG.SuiteExample@229f66ed]" started-at="2025-12-22T17:18:13 IST" name="OpenGoogle" finished-at="2025-12-22T17:18:14 IST" duration-ms="1371" status="PASS">
+        </test-method> <!-- Moto2 -->
+        <test-method signature="Vivo1()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Vivo1" finished-at="2025-12-24T16:40:07 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenGoogle -->
-        <test-method signature="OpentestLeaf()[pri:0, instance:testNG.SuiteExample@229f66ed]" started-at="2025-12-22T17:18:14 IST" name="OpentestLeaf" finished-at="2025-12-22T17:18:18 IST" duration-ms="3647" status="PASS">
+        </test-method> <!-- Vivo1 -->
+        <test-method signature="Vivo2()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Vivo2" finished-at="2025-12-24T16:40:07 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpentestLeaf -->
-        <test-method is-config="true" signature="BrowserClose()[pri:0, instance:testNG.SuiteExample@229f66ed]" started-at="2025-12-22T17:18:18 IST" name="BrowserClose" finished-at="2025-12-22T17:18:18 IST" duration-ms="212" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BrowserClose -->
-      </class> <!-- testNG.SuiteExample -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- Vivo2 -->
+      </class> <!-- testNG.Grouping_Example -->
+    </test> <!-- testcases -->
+  </suite> <!-- testsuite -->
 </testng-results>
