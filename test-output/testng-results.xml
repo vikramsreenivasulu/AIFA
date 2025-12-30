@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-24T16:40:07 IST" name="testsuite" finished-at="2025-12-24T16:40:07 IST" duration-ms="59">
+  <suite started-at="2025-12-29T17:29:41 IST" name="testsuite" finished-at="2025-12-29T17:29:45 IST" duration-ms="3979">
     <groups>
-      <group name="Vivo">
-        <method signature="Grouping_Example.Vivo1()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Vivo1" class="testNG.Grouping_Example"/>
-        <method signature="Grouping_Example.Vivo2()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Vivo2" class="testNG.Grouping_Example"/>
-      </group> <!-- Vivo -->
-      <group name="Moto">
-        <method signature="Grouping_Example.Moto1()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Moto1" class="testNG.Grouping_Example"/>
-        <method signature="Grouping_Example.Moto2()[pri:0, instance:testNG.Grouping_Example@692f203f]" name="Moto2" class="testNG.Grouping_Example"/>
-      </group> <!-- Moto -->
     </groups>
-    <test started-at="2025-12-24T16:40:07 IST" name="testcases" finished-at="2025-12-24T16:40:07 IST" duration-ms="59">
-      <class name="testNG.Grouping_Example">
-        <test-method signature="Moto1()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Moto1" finished-at="2025-12-24T16:40:07 IST" duration-ms="8" status="PASS">
+    <test started-at="2025-12-29T17:29:41 IST" name="testcases" finished-at="2025-12-29T17:29:45 IST" duration-ms="3979">
+      <class name="testNG.ParalleTesting">
+        <test-method signature="OpenChrome()[pri:0, instance:testNG.ParalleTesting@7cc0cdad]" started-at="2025-12-29T17:29:41 IST" name="OpenChrome" finished-at="2025-12-29T17:29:44 IST" duration-ms="3649" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Moto1 -->
-        <test-method signature="Moto2()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Moto2" finished-at="2025-12-24T16:40:07 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- OpenChrome -->
+        <test-method signature="OpenTestleaf()[pri:0, instance:testNG.ParalleTesting@7cc0cdad]" started-at="2025-12-29T17:29:41 IST" name="OpenTestleaf" finished-at="2025-12-29T17:29:45 IST" duration-ms="3932" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Moto2 -->
-        <test-method signature="Vivo1()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Vivo1" finished-at="2025-12-24T16:40:07 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Vivo1 -->
-        <test-method signature="Vivo2()[pri:0, instance:testNG.Grouping_Example@692f203f]" started-at="2025-12-24T16:40:07 IST" name="Vivo2" finished-at="2025-12-24T16:40:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Vivo2 -->
-      </class> <!-- testNG.Grouping_Example -->
+        </test-method> <!-- OpenTestleaf -->
+      </class> <!-- testNG.ParalleTesting -->
     </test> <!-- testcases -->
   </suite> <!-- testsuite -->
 </testng-results>

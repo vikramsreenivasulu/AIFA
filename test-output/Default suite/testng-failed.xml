@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNG.SuiteExample">
+      <class name="testNG.ParameterizationExample">
         <methods>
-          <include name="BrowserClose"/>
-          <include name="OpenYahoo"/>
-          <include name="LaunchBrowser"/>
+          <include name="printname"/>
         </methods>
-      </class> <!-- testNG.SuiteExample -->
+      </class> <!-- testNG.ParameterizationExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

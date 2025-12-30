@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<suite name="testsuite" verbose="3">
+<suite name="testsuite" verbose="3" parallel="methods"  Thread-count="2">
     <test name="testcases">
+    
+    <parameter name="Name" value="duck"></parameter>
         <classes>
-       <groups>
-       <run>
-       
-       <include name="Moto"></include>
-       <include name="Vivo"></include>
-       </run>
-       </groups>
-       <class name="testNG.Grouping_Example"></class>
+      
+       <class name="testNG.ParallelTesting"></class>
        
         </classes>
     </test>
 </suite>
 
-
+<!--  <groups>
+       <run>
+       
+       <include name="Moto"></include>
+       <include name="Vivo"></include>
+       </run>
+       </groups> -->
 
  <!-- <class name="testNG.DependenciesManagement"/>  
         <class name="testNG.Drive_A_Car"/>
