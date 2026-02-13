@@ -1,7 +1,5 @@
 package testNG;
 
-import static org.testng.Assert.assertEquals;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

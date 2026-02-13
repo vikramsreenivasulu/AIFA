@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<suite name="testsuite" verbose="2" parallel="methods" thread-count="2">
 
-<suite name="testsuite" verbose="3" parallel="methods"  Thread-count="2">
+    <listeners>
+        <listener class-name="testNG.ListernersExample"/>
+    </listeners>
+
     <test name="testcases">
-    
-    <parameter name="Name" value="duck"></parameter>
         <classes>
-      
-       <class name="testNG.ParallelTesting"></class>
-       
+            <class name="testNG.SimpleTestCase"/>
         </classes>
     </test>
+
 </suite>
+
+
+<!--   <parameter name="Name" value="duck"></parameter> -->
 
 <!--  <groups>
        <run>

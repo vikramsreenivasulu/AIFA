@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-30T15:03:02 IST" name="Default suite" finished-at="2025-12-30T15:03:02 IST" duration-ms="56">
+  <suite started-at="2026-01-14T10:25:18 IST" name="Default suite" finished-at="2026-01-14T10:25:18 IST" duration-ms="120">
     <groups>
     </groups>
-    <test started-at="2025-12-30T15:03:02 IST" name="Default test" finished-at="2025-12-30T15:03:02 IST" duration-ms="56">
-      <class name="testNG.AssertionsExample">
-        <test-method signature="CheckName()[pri:0, instance:testNG.AssertionsExample@3270d194]" started-at="2025-12-30T15:03:02 IST" name="CheckName" finished-at="2025-12-30T15:03:02 IST" duration-ms="12" status="PASS">
+    <test started-at="2026-01-14T10:25:18 IST" name="Default test" finished-at="2026-01-14T10:25:18 IST" duration-ms="120">
+      <class name="testNG.DependenciesManagement">
+        <test-method signature="SSC()[pri:0, instance:testNG.DependenciesManagement@76505305]" started-at="2026-01-14T10:25:18 IST" name="SSC" finished-at="2026-01-14T10:25:18 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CheckName -->
-      </class> <!-- testNG.AssertionsExample -->
+        </test-method> <!-- SSC -->
+        <test-method signature="Intermediate()[pri:0, instance:testNG.DependenciesManagement@76505305]" started-at="2026-01-14T10:25:18 IST" name="Intermediate" finished-at="2026-01-14T10:25:18 IST" depends-on-methods="testNG.DependenciesManagement.SSC" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Intermediate -->
+        <test-method signature="Btech()[pri:0, instance:testNG.DependenciesManagement@76505305]" started-at="2026-01-14T10:25:18 IST" name="Btech" finished-at="2026-01-14T10:25:18 IST" depends-on-methods="testNG.DependenciesManagement.Intermediate" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Btech -->
+      </class> <!-- testNG.DependenciesManagement -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
